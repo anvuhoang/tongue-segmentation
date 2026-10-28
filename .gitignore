@@ -1,0 +1,41 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+
+# Test and cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.streamlit/secrets.toml
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+
+
+# Dataset
+data/
+dataset/
+datasets/
+groundtruth/
+
+# Model checkpoints and weights
+outputs/checkpoints/
+checkpoints/
+*.pth
+*.pt
+
+# Experiment outputs
+outputs/predictions/
+outputs/logs/
